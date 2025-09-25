@@ -1,0 +1,658 @@
+@media (max-width: 600px) {
+    .loc-btn {
+        min-width: 40px;
+        max-width: 70px;
+        width: 22vw;
+        font-size: 0.82em;
+        padding: 0.12em 0.25em;
+        border-radius: 0.5em;
+        margin: 0.5em auto 0.2em auto;
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .profile-card {
+        max-width: 92vw;
+        padding: 0.7em 0.3em;
+    }
+    .profile-card .actions {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+        gap: 7px;
+        margin: 0.7em 0 0 0;
+    }
+    .action-btn {
+        min-width: 60px;
+        font-size: 0.92em;
+        padding: 0.28em 0.7em;
+        border-radius: 0.5em;
+        margin: 0;
+    }
+}
+/* Font Size Adjustments */
+.main-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5em;
+}
+
+@media (max-width: 600px) {
+    .main-title {
+        font-size: 1.12rem;
+        margin-bottom: 0.3em;
+    }
+}
+
+/* Compact Card Design */
+.profile-card {
+    background: rgba(255,255,255,0.10);
+    border-radius: 14px;
+    box-shadow: 0 1px 6px rgba(60,30,90,0.08);
+    margin: 1em auto;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    header {
+        padding: 0.24em 0.85em 0.24em 0.85em;
+        min-height: 45px;
+        max-height: 56px;
+    }
+    .logo {
+        width: 20px !important;
+        max-height: 12px !important;
+    }
+    .profile-card {
+        max-width: 50vw;
+        padding: 1em 0.5em;
+    }
+    .profile-card h4 {
+        font-size: 1.05em;
+        margin-bottom: 0.3em;
+    }
+    .actions {
+        flex-direction: row !important;
+        gap: 10px;
+    }
+    .action-btn {
+        min-width: 7px;
+        font-size: 0.96em;
+        padding: 0.32em 0.95em;
+    }
+    .loc-btn {
+        font-size: 1em;
+        margin: 0.7em auto 0.2em auto;
+    }
+}
+/* Profile Card Button Alignment */
+.profile-card .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    margin: 1em 0 0 0;
+}
+
+.action-btn {
+    padding: 0.42em 1.1em;
+    font-size: 1em;
+    min-width: 84px;
+    border-radius: 0.6em;
+    margin: 0;
+}
+@media (max-width: 600px) {
+    header {
+        padding: 0.5em 1em 0.5em 1em;
+        min-height: 64px;
+        max-height: 68px;
+    }
+    .logo {
+        width: 52px !important;
+        max-height: 60px !important;
+    }
+    .brand {
+        font-size: 1.15rem !important;
+    }
+}
+/* Soft white-mixed background box for top logos */
+.logo-header-bg {
+    width: 85vw;
+        margin: 18px auto 0 auto;
+        padding: 2px 8px;
+    background: rgba(255,255,255,0.22);
+    border-radius: 22px;
+    box-shadow: 0 4px 24px 0 rgba(90,36,150,0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+/* Proper alignment and sizing for event location image */
+.event-location img {
+    width: 85%;
+    max-width: 340px;
+    border-radius: 9px;
+    margin: 0.6em auto 0.6em auto;
+    display: block;
+    object-fit: cover;
+}
+/* Removed stray CSS properties that were outside of a selector */
+main {
+    margin-bottom: 0;
+}
+/* Footer and contact/copyright boxes */
+.footer-box {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 1em 0 200px 0;
+    background: rgba(255,255,255,0.13);
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -4px 24px 0 rgba(90,36,150,0.13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7em;
+    font-size: 0.50em;
+    font-family: system-ui, Arial, sans-serif;
+}
+.contact-box {
+    color: #6a0572;
+    font-weight: 500;
+    font-family: system-ui, Arial, sans-serif !important;
+}
+.contact-box a {
+    color: #171518;
+    text-decoration: underline;
+}
+.copyright-box {
+    color: #120f14;
+    font-size: 0.88em;
+    font-family: inherit;
+}
+@media (max-width: 600px) {
+    /* Disable blurred circles background on mobile for performance */
+    #blurred-circles-bg, .blurred-circle {
+        display: none !important;
+    }
+   /* Disable sparkle effect on mobile for performance */
+   #sparkle-bg, .star {
+       display: none !important;
+   }
+        .footer-box {
+            font-size: 0.75em;
+                padding: 0.7em 0 90px 0;
+            border-radius: 12px 12px 0 0;
+        }
+}
+.logo-box {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 1.2em 0 1.2em 0;
+    background: rgba(255,255,255,0.13);
+    border-radius: 0 0 32px 32px;
+    box-shadow: 0 6px 32px 0 rgba(90,36,150,0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-box header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+}
+@media (max-width: 600px) {
+    .logo-box {
+        padding: 0.7em 0 0.7em 0;
+        border-radius: 0 0 18px 18px;
+    }
+    .logo-box header {
+        gap: 8px;
+    }
+    .logo {
+        width: 70px !important;
+        margin-right: 8px !important;
+    }
+}
+/* Logo box layer at top */
+.logo-box {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 1.2em 0 1.2em 0;
+    background: rgba(255,255,255,0.13);
+    border-radius: 0 0 32px 32px;
+    box-shadow: 0 6px 32px 0 rgba(90,36,150,0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-box header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+}
+/* Blurred circles background */
+#blurred-circles-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+}
+.blurred-circle {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fff6ff 60%, #b065e6 100%);
+    box-shadow:
+        0 0 60px 30px #b065e6aa,
+        0 0 120px 60px #7f53ac88,
+        0 0 32px 16px #fff6ff66;
+    filter: blur(18px);
+    opacity: 0.25;
+    animation: blink 2.2s infinite;
+    transition: box-shadow 0.3s;
+}
+@keyframes blink {
+    0%, 50% {
+        opacity: 0.85;
+        box-shadow:
+            0 0 60px 30px #b065e6cc,
+            0 0 120px 60px #7f53acbb,
+            0 0 32px 16px #fff6ff99;
+    }
+    50% {
+        opacity: 0.45;
+        box-shadow:
+            0 0 90px 45px #b065e6ff,
+            0 0 160px 80px #7f53accc,
+            0 0 48px 24px #fff6ffcc;
+    }
+}
+/* Countdown timer layout fix */
+.countdown-row {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0.15em auto;
+    padding: 0.4em 0.2em;
+}
+.countdown-left {
+    flex: 1;
+    text-align: left;
+}
+.countdown-center {
+    flex: 1;
+    text-align: center;
+}
+.countdown-right {
+    flex: 1;
+    text-align: right;
+}
+.countdown-seconds {
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 0.2em;
+}
+.countdown-label {
+    display: block;
+    text-align: center;
+    font-size: 0.85rem;
+    color: rgb(240, 240, 240);
+    font-weight: 500;
+    margin-top: 0.1em;
+}
+.bottom-nav {
+    /* ...existing code... */
+    backdrop-filter: blur(12px) brightness(1.12);
+    background: rgba(150, 80, 200, 0.23);
+    box-shadow: 0 2px 18px rgba(90,36,150,.13), 0 0 0 18px rgba(150,80,200,0.08);
+}
+/* Sparkle/star twinkle effect */
+#sparkle-bg {
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+}
+.star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    opacity: 0.35;
+    filter: drop-shadow(0 0 6px #fff8);
+    animation: star-twinkle 2.2s linear infinite;
+    z-index: -2;
+}
+@keyframes star-twinkle {
+    0% { opacity: 0.2; transform: scale(0.7); }
+    20% { opacity: 0.8; }
+    80% { opacity: 1; }
+    100% { opacity: 0.2; transform: scale(1.2); }
+}
+body {
+    font-family: 'Segoe UI', cursive, sans-serif;
+    background: linear-gradient(135deg, #b065e6, #7f53ac 80%);
+    color: #fff;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.animated-bg {
+    background: linear-gradient(135deg, #b065e6 0%, #7f53ac 100%);
+    animation: bgMove 10s linear infinite alternate;
+}
+
+@keyframes bgMove {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+header {
+    background: rgba(200,150,255,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em 0.5em 2em;
+}
+
+.logo {
+    width: 90px;
+}
+.brand {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main-title {
+    font-size: 4.2rem;
+    text-align: center;
+    margin: 1em 0 .5em 0;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: #6a0572;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 12px #e0b3ff44, 0 4px 18px #a259c6;
+}
+.invitation-text {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1.5em;
+    color: #85fffd;
+}
+
+.card-preview {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+.invitation-img {
+    width: 200px;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(50,20,70,.18);
+}
+
+.main-btn, .loc-btn {
+    width: 25vw;
+    background: #663399;
+    color: #fff;
+    border: none;
+    padding: .4em 1em;
+    border-radius: 8px;
+    display: block;
+    margin: 2em auto .5em auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: system-ui, Arial, sans-serif !important;
+    box-shadow: 0 2px 6px rgba(90,36,150,.15);
+    text-decoration: none;
+    transition: background .3s;
+}
+.main-btn:hover, .loc-btn:hover {
+    background: #b589d6;
+}
+
+.quote {
+    text-align: center;
+    color: #ede7f6;
+    opacity: 0.95;
+    margin: 1.2em 0;
+    font-size: 1.05rem;
+    font-style: italic;
+}
+
+/* Floating centered navigation bar */
+.bottom-nav {
+    position: fixed;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    background: rgba(150, 80, 200, 0.23);
+    padding: .7em 2em;
+    border-radius: 22px;
+    box-shadow: 0 2px 18px rgba(90,36,150,.13);
+    z-index: 1000;
+}
+.nav-icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #6a0572;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px #a259c633;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+}
+.nav-icon:hover, .nav-icon:focus {
+    background: #a259c6;
+    color: #fff;
+    box-shadow: 0 4px 18px #a259c688;
+}
+.icon.contacts { background-position: -120px 0;}
+
+/* Invitation Card */
+.invitation-card {
+    width: 85vw;
+    max-width: 50px;
+    background: rgba(255,255,255,0.07);
+    border-radius: 14px;
+    margin: 1.7em auto;
+    padding: 1.7em;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(50,20,70,.12);
+}
+.highlight {
+    color: #ecd9fc;
+}
+.card-illustration img {
+    width: 85vw;
+    width: 85%;
+    height: auto;
+    margin-top: 0em;
+    border-radius: 8px;
+}
+.names {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f4d3ff;
+    margin: .6em 0 .4em 0;
+}
+.event-info {
+    color: #d8b0eb;
+    font-size: 1rem;
+    margin-bottom: .6em;
+}
+
+.countdown {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.3rem;
+}
+#countdown-timer span {
+    background: rgba(255, 255, 255, 0.753);
+    box-shadow: 0 2px 6px rgb(146, 104, 173);
+    margin: .2em;
+    padding: .8em 1em;
+    border-radius: 0.5em;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+.event-details {
+    font-family: system-ui, Arial, sans-serif;
+    background: rgba(255,255,255,0.08);
+    border-radius: 10px;
+    margin: 2em auto;
+    padding: 1.2em 1em;
+    max-width: 340px;
+    text-align: center;
+}
+.event-time {
+    font-family: inherit;
+    font-size: 1.4rem;
+    margin: .7em 0;
+    color: #fff5f5;
+}
+.event-location {
+    font-family: inherit;
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: .6em;
+    display: block;
+}
+
+.profile-card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+    max-width: 100px;
+    margin: 1em auto;
+    box-shadow: 0 2px 10px rgba(50,20,70,.08);
+    text-align: center;
+    padding: 1em;
+    position: relative;
+}
+.profile-card .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#b085d6,#a768ff 70%);
+    margin: 0 auto 1em auto;
+}
+.profile-card h4 {
+    margin-bottom: .6em;
+    color: #e8d6ff;
+}
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: .9em;
+}
+.actions button {
+    border: none;
+    background: #a06cd5;
+    color: #fff;
+    padding: .3em 0.5em;
+    border-radius: .2em;
+    font-size: .98em;
+    cursor: pointer;
+    transition: background .2s;
+}
+.actions button:hover {
+    background: #7754a7;
+    width: 75%;
+    max-width: 100px;
+    border-radius: 6px;
+    margin: 0.6em auto 0.6em auto;
+    display: block;
+    object-fit: cover;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    body, .animated-bg {
+        min-width: 100vw;
+        font-size: 1.1rem;
+        padding: 0;
+    }
+    header {
+        flex-direction: column;
+        padding: 1em .7em .5em .7em;
+    }
+    .main-title {
+        font-size: 1.4rem;
+        margin-top: 0.7em;
+    }
+    .card-preview, .invitation-img, .event-details, .profile-card, .invitation-card {
+        width: 70vw !important;
+        max-width: 97vw !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+    }
+    .profile-card, .invitation-card {
+        padding: 1em 0.3em;
+    }
+    .bottom-nav {
+        flex-direction: row;
+        padding: .5em 0;
+        border-radius: 16px 16px 0 0;
+    }
+    .bottom-nav .nav-icon, .bottom-nav i, .icon-menu {
+        font-size: 1.2em !important;
+        width: 33px;
+        height: 33px;
+        margin: 0 0.3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .actions {
+        flex-direction: column !important;
+        gap: 7px;
+        align-items: stretch;
+    }
+    .event-location img {
+        width: 75%;
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        font-size: 1em;
+    }
+    .main-title {
+        font-size: 1.12rem;
+    }
+    .profile-card h4, .invitation-card h2 {
+        font-size: 1rem;
+    }
+}
